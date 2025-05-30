@@ -45,8 +45,31 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-color: var(--Purple-low);
-    /* text-decoration: none; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: var(--Purple-bloder);
+}
 
+.container {
+    max-height: 400px;
+    background: var(--White);
+    max-width: 90%;
+    position: relative;
+    top: 8em;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 0px var(--Purple-bold);
+}
+
+.faq-title {
+    display: flex;
+    gap: 1em;
+    padding-left: 1em;
+}
+
+#icon-title {
+    width: 10%;
 }
 
 /* footer */
