@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('./assets/fonts/static/WorkSans-Regular.woff')format('woff');
+    src: url('./assets/fonts/static/WorkSans-Regular.ttf')format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('./assets/fonts/static/WorkSans-SemiBold.woff')format('woff');
+    src: url('./assets/fonts/static/WorkSans-SemiBold.ttf')format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('./assets/fonts/static/WorkSans-Bold.woff')format('woff');
+    src: url('./assets/fonts/static/WorkSans-Bold.ttf')format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    /* Polices */
+    --font-family: 'Work Sans', sans-serif;
+    --font-regular: 400;
+    --font-bolder: 700;
+    --font-bold: 600;
+    /* Couleurs */
+    --White: hsl(0, 100%, 100%);
+    --Purple-low: hsl(275, 100%, 97%);
+    --Purple-bold: hsl(292, 16%, 49%);
+    --Purple-bloder: hsl(292, 42%, 14%);
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    min-height: 100vh;
+}
