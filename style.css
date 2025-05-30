@@ -45,4 +45,19 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-color: var(--Purple-low);
+    /* text-decoration: none; */
+
+}
+
+/* footer */
+.attribution {
+    font-size: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.attribution a {
+    color: var(--Purple-bold);
+    text-decoration: none;
 }
