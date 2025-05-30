@@ -41,4 +41,8 @@
 body {
     font-family: 'Work Sans', sans-serif;
     min-height: 100vh;
+    background: url('./assets/images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--Purple-low);
 }
