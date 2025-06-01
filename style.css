@@ -191,15 +191,8 @@ input[type="radio"] {
         max-width: 50%;
         max-height: 430px;
     }
-}
 
-@media screen and (min-width: 1100px) {
-    /* body {
-        background-size: 1100px;
-        background-repeat: cover;
+    .faq-item label:hover {
+        color: var(--Purple-bold);
     }
-
-    .container {
-        max-height: 410px;
-    } */
 }
